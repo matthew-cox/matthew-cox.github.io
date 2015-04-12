@@ -7,24 +7,24 @@
  * From: http://css-tricks.com/perfect-full-page-background-image/ 
  */
 html#about {
-  background: url(http://photo.azriel.net/Travel/2010/Ireland/MG0019-001/1048032124_4pFTk-L.jpg) no-repeat center center fixed;
+  background: url(http://photo.azriel.net/Other/My-Smug-Mug/i-JrFZwMX/0/X3/OneAndOnlyParis-128-matt-web-X3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Travel/2010/Ireland/MG0019-001/1048032124_4pFTk-L.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Travel/2010/Ireland/MG0019-001/1048032124_4pFTk-L.jpg', sizingMethod='scale')"; */
+  /* filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-JrFZwMX/0/X3/OneAndOnlyParis-128-matt-web-X3.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-JrFZwMX/0/X3/OneAndOnlyParis-128-matt-web-X3.jpg', sizingMethod='scale')"; */
   min-width: 600px;
 }
 
 div#bg {
-  background: url(http://photo.azriel.net/Travel/2010/Ireland/MG0019-001/1048032124_4pFTk-L.jpg) no-repeat center center fixed;
+  background: url(http://photo.azriel.net/Other/My-Smug-Mug/i-JrFZwMX/0/X3/OneAndOnlyParis-128-matt-web-X3.jpg) no-repeat center center fixed;
   display: block;
   z-index: -1;
   width: 100%;
   height: 100%;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Travel/2010/Ireland/MG0019-001/1048032124_4pFTk-L.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Travel/2010/Ireland/MG0019-001/1048032124_4pFTk-L.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-JrFZwMX/0/X3/OneAndOnlyParis-128-matt-web-X3.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-JrFZwMX/0/X3/OneAndOnlyParis-128-matt-web-X3.jpg', sizingMethod='scale')";
 }
 
 div#bio {
@@ -34,6 +34,8 @@ div#bio {
   top: 125px;
 }
 
-p#imgcr:before { content: "\00a9 2010 Azriel Photography"; }
+p#imgcr:before { content: "\00a9 2011 One and Only Paris"; }
 
-div.imgcr { position: fixed; bottom: 0px; left: 0px; right: auto; top: auto; }
+div.imgcr { position: fixed; bottom: 0px; left: auto; right: 0px; top: auto; }
+
+img.grav { display: none; }
