@@ -1,0 +1,39 @@
+
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600);
+
+/* 
+ * Main page - Theme #$theme
+ *
+ * From: http://css-tricks.com/perfect-full-page-background-image/ 
+ */
+html#about {
+  background: url(http://photo.azriel.net/Other/My-Smug-Mug/i-gMRpPv8/0/X3/OneAndOnlyParis-77-crop-web-X3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-gMRpPv8/0/X3/OneAndOnlyParis-77-crop-web-X3.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-gMRpPv8/0/X3/OneAndOnlyParis-77-crop-web-X3.jpg', sizingMethod='scale')"; */
+  min-width: 600px;
+}
+
+div#bg {
+  background: url(http://photo.azriel.net/Other/My-Smug-Mug/i-gMRpPv8/0/X3/OneAndOnlyParis-77-crop-web-X3.jpg) no-repeat center center fixed;
+  display: block;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-gMRpPv8/0/X3/OneAndOnlyParis-77-crop-web-X3.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://photo.azriel.net/Other/My-Smug-Mug/i-gMRpPv8/0/X3/OneAndOnlyParis-77-crop-web-X3.jpg', sizingMethod='scale')";
+}
+
+div#bio {
+  font-family: 'Cabin Condensed', sans-serif;
+  left: 15%;
+  position: absolute;
+  top: 125px;
+}
+
+p#imgcr:before { content: "\00a9 2011 One and Only Paris"; }
+
+img.grav { display: none; }
